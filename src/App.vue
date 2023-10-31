@@ -13,7 +13,7 @@ export default defineComponent({
   футер
 </template>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&family=Mulish:wght@200;300;400;500;600&display=swap');
 * {
   margin: 0;
@@ -22,7 +22,7 @@ export default defineComponent({
   box-sizing: border-box;
 }
 
-a {
+/deep/ a {
   text-decoration: none;
   color: inherit;
 }
