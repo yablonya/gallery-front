@@ -32,10 +32,13 @@ export default {
   border: none;
   background: none;
   border-radius: 10px;
-  padding: 6px 20px;
+  padding: 8px 20px;
   font-size: 20px;
   font-weight: 300;
   transition: all 0.2s ease-in-out;
+  @include mobile {
+    font-size: 15px;
+  }
 }
 
 @mixin mobile {
@@ -51,15 +54,12 @@ export default {
     background-color: #5D2A42;
     color: white;
   }
-  @include mobile {
-    font-size: 15px;
-  }
 }
 
 .filled-button {
   @include button;
-  background-color: grey;
-  border: 1px solid grey;
+  background-color: #5D2A42;
+  border: 1px solid #5D2A42;
   color: white;
 }
 </style>

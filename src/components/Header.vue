@@ -23,7 +23,7 @@ export default {
           </router-link>
         </div>
         <div v-if="!isSpecialRoute" class="col login-register">
-          <router-link to="/registration">
+          <router-link to="/login">
             <Button style="border-radius: 25px" variant="outlined">Login</Button>
           </router-link>
           <router-link to="/registration">
