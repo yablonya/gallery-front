@@ -1,6 +1,6 @@
 <template>
   <form class="login-form">
-    <img src="/public/icons/login-icon.png" alt="login-icon">
+    <img src="/icons/login-icon.png" alt="login-icon">
     <h2>Log in to your account</h2>
     <div class="mb-3">
       <label for="email">Email</label>
@@ -11,7 +11,7 @@
       <input class="form-control" type="password" id="password" name="password">
     </div>
     <Button type="submit" variant="filled" style="margin-top: 20px">Log in</Button>
-    <router-link to="/regostration" class="ref-to-register">Don't have an account?</router-link>
+    <router-link to="/registration" class="ref-to-register">Don't have an account?</router-link>
     <router-link to="/" style="margin-top: 30px">
       <Button variant="outlined" style="width: 100%">To Main Page</Button>
     </router-link>

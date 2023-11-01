@@ -1,16 +1,16 @@
 <template>
   <footer>
     <a href="tel:0975708873">
-      <img src="/public/icons/phone-call.png" alt="phone">
+      <img src="/icons/phone-call.png" alt="phone">
     </a>
     <a href="mailto:dnlablonskyi@gmail.com">
-      <img src="/public/icons/open-mail.png" alt="email">
+      <img src="/icons/open-mail.png" alt="email">
     </a>
     <a href="https://t.me/DeathisN0tDefeat">
-      <img src="/public/icons/telegram.png" alt="telegram">
+      <img src="/icons/telegram.png" alt="telegram">
     </a>
     <a href="viber://chat?number=0975708873">
-      <img src="/public/icons/viber.png" alt="viber">
+      <img src="/icons/viber.png" alt="viber">
     </a>
     <router-link class="faq" to="/faq">
       F.A.Q
