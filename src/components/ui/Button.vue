@@ -28,6 +28,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import "src/styles/breakpoints";
 @mixin button {
   border: none;
   background: none;
@@ -36,14 +37,8 @@ export default {
   font-size: 20px;
   font-weight: 300;
   transition: all 0.2s ease-in-out;
-  @include mobile {
+  @include mobileMedium {
     font-size: 15px;
-  }
-}
-
-@mixin mobile {
-  @media (max-width: 512px) {
-    @content;
   }
 }
 
