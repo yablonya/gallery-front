@@ -23,7 +23,6 @@ import Button from "@/components/ui/Button.vue";
 
 export default {
   components: {Button}
-
 }
 </script>
 

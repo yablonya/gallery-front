@@ -1,16 +1,3 @@
-<script>
-import Button from "@/components/ui/Button.vue";
-
-export default {
-  components: {Button},
-  computed: {
-    isSpecialRoute() {
-      return this.$route.path === '/registration';
-    }
-  }
-}
-</script>
-
 <template>
   <header>
     <div class="container-fluid">
@@ -34,6 +21,18 @@ export default {
     </div>
   </header>
 </template>
+
+<script>
+import Button from "@/components/ui/Button.vue";
+export default {
+  components: {Button},
+  computed: {
+    isSpecialRoute() {
+      return this.$route.path === '/registration';
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 @mixin mobile {

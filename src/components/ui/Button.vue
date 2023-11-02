@@ -1,10 +1,15 @@
+<template>
+  <button :class="buttonClass">
+    <slot></slot>
+  </button>
+</template>
 
 <script>
 export default {
   props: {
     variant: {
       type: String,
-      validator: value => {
+      validator(value) {
         return ['outlined', 'filled'].includes(value);
       },
       required: true
@@ -20,12 +25,6 @@ export default {
   }
 }
 </script>
-
-<template>
-  <button :class="buttonClass">
-    <slot></slot>
-  </button>
-</template>
 
 <style lang="scss" scoped>
 @import "src/styles/breakpoints";
