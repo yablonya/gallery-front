@@ -2,6 +2,7 @@
   <div class="home">
     <img src="/photo_negr.jpg" alt="nigger">
   </div>
+  <h2>Nevermind. Click on Register</h2>
 </template>
 
 <script setup>
@@ -33,11 +34,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 800px;
+  height: 80vh;
   img {
     width: 500px;
     height: auto;
     animation: scaleAnimation 1s infinite;
   }
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 </style>

@@ -31,6 +31,7 @@ export default {
   margin: 0 auto;
   padding: 40px 20px 300px;
   max-width: 800px;
+  height: 90vh;
   display: flex;
   flex-direction: column;
 }
